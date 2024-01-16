@@ -1,4 +1,5 @@
 # FederatedInference: Federated Inferencing for Score-Based Diffusion Models
+
 By: Luke Braithwaite (lb2027@cam.ac.uk) and Matthew Hattrup (mh2236@cam.ac.uk)
 
 Federated Learning has emerged as a means to train models over decentralized data. 
@@ -24,9 +25,10 @@ By default, each notebook saves the outputs to google drive, that can be adjuste
 
 ## Code structure
 In this repository, you shall find 3 jupyter notebooks.
- 1.⁠ ⁠⁠ Diffusers_SDE.ipynb ⁠: this notebook is used to pretrain a score based diffusion model using huggingface's diffusers library. Adapted from `https://github.com/yang-song/score_sde` which is the original score-based diffusion code.
- 2.⁠ ⁠⁠ inference.ipynb ⁠: given a series of pretrained diffusion models perform federated inference on them. We used [torchdiffeq](https://github.com/rtqichen/torchdiffeq) as our SDE solver due to it interoperability with the PyTorch ecosystem.
- 3.⁠ ⁠⁠ Analysis.ipynb ⁠: performs the analysis on samples generated using federated inferencing. For the MNIST feature extractor we used the pretrained model weights from https://github.com/sundyCoder/IS_MS_SS that was based on ResNet.
+
+ 1. `Diffusers_SDE.ipynb`⁠: this notebook is used to pretrain a score based diffusion model using huggingface's diffusers library. Adapted from https://github.com/yang-song/score_sde which is the original score-based diffusion code.
+ 2. ⁠⁠`inference.ipynb`: given a series of pretrained diffusion models perform federated inference on them. We used [torchdiffeq](https://github.com/rtqichen/torchdiffeq) as our SDE solver due to it interoperability with the PyTorch ecosystem.
+ 3. `⁠Analysis.ipynb`⁠: performs the analysis on samples generated using federated inferencing. For the MNIST feature extractor we used the pretrained model weights from https://github.com/sundyCoder/IS_MS_SS that was based on ResNet.
 
 
 
