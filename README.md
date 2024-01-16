@@ -2,6 +2,7 @@
 
 By: Luke Braithwaite (lb2027@cam.ac.uk) and Matthew Hattrup (mh2236@cam.ac.uk)
 
+## Abstract
 Federated Learning has emerged as a means to train models over decentralized data. 
 In the real world, data often cannot be centralized due to costs, privacy concerns, or regulation making centralized training in these cases impossible. Federated Learning is a potential solution for training in these contexts, whereby a central model learns a global distribution by aggregating training over isolated datasets. 
 In this paper, we propose FederatedInference framework, whereby models are pretrained on seperate datasets and their predictions are combined for collective inferencing. 
